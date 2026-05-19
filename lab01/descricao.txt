@@ -1,0 +1,13 @@
+Da amostra 20% são spam, o filtro detecta 90% dos casos, 10% dos e-mail legitimos 
+sao classificados como spam, se um email foi marcado como 
+spam, qual a probabilidade de ser spam?
+
+Desenvolver um programa em python para calcular
+
+P(Spam|Marcado como Spam)
+
+Temos:
+
+P(S) = 0.2
+P(M|S) = 0.9
+P(M|Sc) = 0.1

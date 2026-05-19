@@ -1,0 +1,17 @@
+Tabela de frequencias observadas:
+| FreqObs:  [77, 136, 126, 88, 57, 27, 34, 37, 78, 68, 56, 66, 47, 36, 25, 42] |
+| ----------------------------------------------------------------------------------------------------
+| Classes:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] |
+
+Frequencias esperadas (Poisson):
+| FreqEsp:  [np.float64(2.33), np.float64(14.13), np.float64(42.84), np.float64(86.54), np.float64(131.13), np.float64(158.96), np.float64(160.57), np.float64(139.03), np.float64(105.34), np.float64(70.94), np.float64(43.0), np.float64(23.69), np.float64(11.97), np.float64(5.58), np.float64(2.42), np.float64(1.54)]
+| ----------------------------------------------------------------------------------------------------
+| Classes:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] |
+
+--- Resultado do Teste ---
+Lambda estimado (media): 6.0610
+Qui-quadrado calculado : 5556.9419
+Graus de liberdade     : 14
+Valor critico (alpha=0.05): 23.6848
+Conclusao: Rejeita-se H0.
+  Os dados NAO seguem uma distribuicao de Poisson com lambda estimado.
